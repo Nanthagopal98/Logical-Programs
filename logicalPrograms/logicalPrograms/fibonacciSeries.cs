@@ -10,7 +10,7 @@ namespace logicalPrograms
     {
         public void fibonacci()
         {
-            int x=0, y=1,z,temp2;
+            int x=0, y=1,z;
             Console.WriteLine("Enter value to find Fibonacci series");
             int input = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Fibonacci series of "+input+" values");
