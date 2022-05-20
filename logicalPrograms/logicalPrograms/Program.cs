@@ -3,6 +3,7 @@
 Console.WriteLine("Enter 1 to run fibonacci Series");
 Console.WriteLine("Enter 2 to run perfect Number");
 Console.WriteLine("Enter 3 to run prime Number");
+Console.WriteLine("Enter 4 to run reverse a Number");
 int run =Convert.ToInt32(Console.ReadLine());
 switch (run)
 {
@@ -17,6 +18,10 @@ switch (run)
     case 3:
         logicalPrograms.primeNumber run3 = new logicalPrograms.primeNumber();
         run3.findPrimeNumber();
+        break;
+    case 4:
+        logicalPrograms.reverseNumber run4 = new logicalPrograms.reverseNumber();
+        run4.reverseNum();
         break;
 }
 
