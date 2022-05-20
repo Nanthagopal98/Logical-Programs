@@ -1,7 +1,8 @@
 ﻿
 // See https://aka.ms/new-console-template for more information
-Console.WriteLine("Enter 1 to run fibonacciSeries");
-Console.WriteLine("Enter 2 to run perfectNumber");
+Console.WriteLine("Enter 1 to run fibonacci Series");
+Console.WriteLine("Enter 2 to run perfect Number");
+Console.WriteLine("Enter 3 to run prime Number");
 int run =Convert.ToInt32(Console.ReadLine());
 switch (run)
 {
@@ -12,6 +13,10 @@ switch (run)
     case 2:
         logicalPrograms.perfectNumber run2 = new logicalPrograms.perfectNumber();
         run2.findPerfectNumber();
+        break;
+    case 3:
+        logicalPrograms.primeNumber run3 = new logicalPrograms.primeNumber();
+        run3.findPrimeNumber();
         break;
 }
 
