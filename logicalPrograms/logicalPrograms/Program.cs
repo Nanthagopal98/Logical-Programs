@@ -6,6 +6,7 @@ Console.WriteLine("Enter 3 to run prime Number");
 Console.WriteLine("Enter 4 to run reverse a Number");
 Console.WriteLine("Enter 6 to run stop Watch");
 Console.WriteLine("Enter 7 to run Vending Machine");
+Console.WriteLine("Enter 8 to run Temperature Conversion");
 int run =Convert.ToInt32(Console.ReadLine());
 switch (run)
 {
@@ -33,6 +34,11 @@ switch (run)
         logicalPrograms.vendingMachine run7 = new logicalPrograms.vendingMachine();
         run7.checkBalance();
         break;
-        
+    case 8:
+        logicalPrograms.temperatureConversion run8 = new logicalPrograms.temperatureConversion();
+        run8.convertTemperature();
+        break;
+
+
 }
 
