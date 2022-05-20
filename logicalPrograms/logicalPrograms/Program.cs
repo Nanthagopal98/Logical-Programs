@@ -5,6 +5,7 @@ Console.WriteLine("Enter 2 to run perfect Number");
 Console.WriteLine("Enter 3 to run prime Number");
 Console.WriteLine("Enter 4 to run reverse a Number");
 Console.WriteLine("Enter 6 to run stop Watch");
+Console.WriteLine("Enter 7 to run Vending Machine");
 int run =Convert.ToInt32(Console.ReadLine());
 switch (run)
 {
@@ -28,7 +29,10 @@ switch (run)
         logicalPrograms.stopWatchTime run6 = new logicalPrograms.stopWatchTime();
         run6.timeCalculate();
         break;
-
+    case 7:
+        logicalPrograms.vendingMachine run7 = new logicalPrograms.vendingMachine();
+        run7.checkBalance();
+        break;
         
 }
 
