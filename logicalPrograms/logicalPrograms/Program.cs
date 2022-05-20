@@ -4,6 +4,7 @@ Console.WriteLine("Enter 1 to run fibonacci Series");
 Console.WriteLine("Enter 2 to run perfect Number");
 Console.WriteLine("Enter 3 to run prime Number");
 Console.WriteLine("Enter 4 to run reverse a Number");
+Console.WriteLine("Enter 6 to run stop Watch");
 int run =Convert.ToInt32(Console.ReadLine());
 switch (run)
 {
@@ -23,5 +24,11 @@ switch (run)
         logicalPrograms.reverseNumber run4 = new logicalPrograms.reverseNumber();
         run4.reverseNum();
         break;
+    case 6:
+        logicalPrograms.stopWatchTime run6 = new logicalPrograms.stopWatchTime();
+        run6.timeCalculate();
+        break;
+
+        
 }
 
