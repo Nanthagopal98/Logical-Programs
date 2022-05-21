@@ -1,5 +1,4 @@
-﻿
-// See https://aka.ms/new-console-template for more information
+﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Enter 1 to run fibonacci Series");
 Console.WriteLine("Enter 2 to run perfect Number");
 Console.WriteLine("Enter 3 to run prime Number");
@@ -7,6 +6,7 @@ Console.WriteLine("Enter 4 to run reverse a Number");
 Console.WriteLine("Enter 6 to run stop Watch");
 Console.WriteLine("Enter 7 to run Vending Machine");
 Console.WriteLine("Enter 8 to run Temperature Conversion");
+Console.WriteLine("Enter 9 to run monthly Payment");
 int run =Convert.ToInt32(Console.ReadLine());
 switch (run)
 {
@@ -38,7 +38,12 @@ switch (run)
         logicalPrograms.temperatureConversion run8 = new logicalPrograms.temperatureConversion();
         run8.convertTemperature();
         break;
+    case 9:
+        logicalPrograms.monthlyPayment run9 = new logicalPrograms.monthlyPayment();
+        run9.findMonthlyPay();
+        break;
 
 
 }
+
 
