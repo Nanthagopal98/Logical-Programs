@@ -3,6 +3,7 @@ Console.WriteLine("Enter 1 to run fibonacci Series");
 Console.WriteLine("Enter 2 to run perfect Number");
 Console.WriteLine("Enter 3 to run prime Number");
 Console.WriteLine("Enter 4 to run reverse a Number");
+Console.WriteLine("Enter 5 to run Coupon Number");
 Console.WriteLine("Enter 6 to run stop Watch");
 Console.WriteLine("Enter 7 to run Vending Machine");
 Console.WriteLine("Enter 8 to run Temperature Conversion");
@@ -26,6 +27,10 @@ switch (run)
     case 4:
         logicalPrograms.reverseNumber run4 = new logicalPrograms.reverseNumber();
         run4.reverseNum();
+        break;
+    case 5:
+        logicalPrograms.couponNumber run5 = new logicalPrograms.couponNumber();
+        run5.findCouponNumber();
         break;
     case 6:
         logicalPrograms.stopWatchTime run6 = new logicalPrograms.stopWatchTime();
