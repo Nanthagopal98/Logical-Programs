@@ -9,6 +9,7 @@ Console.WriteLine("Enter 7 to run Vending Machine");
 Console.WriteLine("Enter 8 to run Temperature Conversion");
 Console.WriteLine("Enter 9 to run monthly Payment");
 Console.WriteLine("Enter 10 to run Days Of Week");
+Console.WriteLine("Enter 11 to run Square Root");
 int run =Convert.ToInt32(Console.ReadLine());
 switch (run)
 {
@@ -51,6 +52,10 @@ switch (run)
     case 10:
         logicalPrograms.daysOfWeek run10 = new logicalPrograms.daysOfWeek();
         run10.findDaysOfWeek();
+        break;
+    case 11:
+        logicalPrograms.squareRoot run11 = new logicalPrograms.squareRoot();
+        run11.GetRoot();
         break;
 
 
