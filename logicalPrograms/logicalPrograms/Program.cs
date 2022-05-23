@@ -11,6 +11,7 @@ Console.WriteLine("Enter 9 to run monthly Payment");
 Console.WriteLine("Enter 10 to run Days Of Week");
 Console.WriteLine("Enter 11 to run Square Root");
 Console.WriteLine("Enter 12 to run Convert To Binary");
+Console.WriteLine("Enter 13 to run Swap Nibbles");
 int run =Convert.ToInt32(Console.ReadLine());
 switch (run)
 {
@@ -61,6 +62,10 @@ switch (run)
     case 12:
         logicalPrograms.convertToBinary run12 = new logicalPrograms.convertToBinary();
         run12.GetBinary();
+        break;
+    case 13:
+        logicalPrograms.swapNibbles run13 = new logicalPrograms.swapNibbles();
+        run13.GetBinary();
         break;
 
 
