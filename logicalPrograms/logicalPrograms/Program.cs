@@ -10,6 +10,7 @@ Console.WriteLine("Enter 8 to run Temperature Conversion");
 Console.WriteLine("Enter 9 to run monthly Payment");
 Console.WriteLine("Enter 10 to run Days Of Week");
 Console.WriteLine("Enter 11 to run Square Root");
+Console.WriteLine("Enter 12 to run Convert To Binary");
 int run =Convert.ToInt32(Console.ReadLine());
 switch (run)
 {
@@ -56,6 +57,10 @@ switch (run)
     case 11:
         logicalPrograms.squareRoot run11 = new logicalPrograms.squareRoot();
         run11.GetRoot();
+        break;
+    case 12:
+        logicalPrograms.convertToBinary run12 = new logicalPrograms.convertToBinary();
+        run12.GetBinary();
         break;
 
 
